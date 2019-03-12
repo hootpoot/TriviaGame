@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/189324f1e6a851dae61df2369df99935.jpg);
+    color: white;
+}
+
+.container {
+    background-color: rgb(33, 48, 45, .96);
+    width: 960px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: "Titan One", serif;
+    font-size: 90px;
+}

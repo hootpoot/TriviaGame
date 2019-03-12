@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,42 @@
     <title>Trivia Game</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="Assets/javascript/app.js"></script>
-    
-    
+
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
 
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 
 <body>
+    <div class="container">
+    <h1>Scotland Trivia</h1>
+    <div id="questionScreen">
+        <div id="timer"></div>
+        <br>
+        <div id="question"></div>
 
-<h1>Scotland Trivia</h1>
+        <button id="start" class="start">START</button>
+        <br>
 
-<div id="timer"></div>
-<br>
-<div id="question"></div>
+        <div id="answers"></div>
+    </div>
+    <div id="correctScreen" style="display: none">
+        <p>CORRECT</p>
+        <img class="gif">
+    </div>
 
-<button id="start" class="start">START</button>
-<br>
-<!--
-<button id="answerA" class="answerChoice">
-    <div id="answerAText"></div>
-</button>
-<br>
-<button id="answerB" class="answerChoice">
-    <div id="answerBText"></div>
-</button>
-<br>
-<button id="answerC" class="answerChoice">
-    <div id="answerCText"></div>
-</button>
-<br>
-<button id="answerD" class="answerChoice">
-    <div id="answerDText"></div>
-</button>
+    <div id="incorrectScreen" style="display: none">
+        <p>INCORRECT</p>
+        <p>The correct answer is <span id="rightAnswer"></span></p>
+        <img class="gif"> 
+    </div>
 
--->
-
-
-    
+    <div id="endScreen" style="display: none">
+        <p>Correct Answers: <span id="number-right"></span></p>
+        <p>Incorrect Answers: <span id="number-wrong"></span></p>
+        <!--<p>Unanswered: <span id="number-nanswered"></span></p>-->
+    </div>
+    </div>
 </body>
+
 </html>
