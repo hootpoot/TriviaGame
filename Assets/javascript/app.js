@@ -55,7 +55,8 @@ $(document).ready(function () {
     //main menu, start
     $("#start").on("click", function () {
         $(this).hide();
-
+        $("h1").css("font-size", "60px");
+        $("h1").css("margin-top", "-10px");
         showQuestion();
     });
     // initiate questions

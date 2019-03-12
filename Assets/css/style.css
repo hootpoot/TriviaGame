@@ -6,14 +6,72 @@ body {
 .container {
     background-color: rgb(33, 48, 45, .96);
     width: 960px;
+    height: 450px;
     margin: 60px auto;
     text-align: center;
     padding: 20px;
-    border: 1.5px solid black;
+    border: 1.5px solid rgb(56, 70, 67);
     border-radius: 4px;
 }
 
 h1 {
-    font-family: "Titan One", serif;
+    font-family: "Shrikhand", serif;
     font-size: 90px;
+    font-weight: thin;
+    
+}
+
+#start {
+    padding: 10px;
+    font-size: 32px;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    background-color: rgb(43, 58, 77);
+    color:white;
+    border: 2px solid rgb(27, 32, 48);
+    border-radius: 4px;
+}
+
+#start:hover {
+    background-color: rgb(27, 32, 48);
+    border: 2px solid rgb(43, 58, 77);
+}
+
+button {
+    padding: 10px;
+    font-size: 22px;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    background-color: rgb(43, 58, 77);
+    color:white;
+    border: 2px solid rgb(27, 32, 48);
+    border-radius: 4px;
+    margin-left: 40px;
+}
+
+.gif {
+    width: 450px;
+    height: auto;
+}
+
+p {
+    font-size: 22px;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    margin-top: -15px;
+}
+
+#question {
+    font-size: 22px;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+#timer {
+    font-size: 22px;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
+    margin-top: 10px;
 }
